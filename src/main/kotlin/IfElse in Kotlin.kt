@@ -1,4 +1,4 @@
-import java.util.Scanner //Import Scanner from Java to receive user input.
+import java.util.Scanner //Import Scanner from Java to receive user input as integer.
 
 fun main(){
     //"If" and "Else" are conditionals to the statement and for the function.
