@@ -1,4 +1,4 @@
-import java.util.Scanner //Import Scanner to receive user input.
+import java.util.Scanner //Import Scanner from Java to receive user input.
 
 fun main() {
     //Define variables here.
