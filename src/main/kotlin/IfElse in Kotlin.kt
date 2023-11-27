@@ -1,4 +1,4 @@
-import java.util.Scanner //Import Scanner from Java to receive user input.
+import java.util.Scanner //Import Scanner from Java to receive user input as integer.
 
 fun main(){
     //"If" and "Else" are conditionals to the statement and for the function.
@@ -26,7 +26,7 @@ fun main(){
         println("Y value is: " + valueY)
     }
     //If the value of X and Y are the same, print the following text.
-    if (valueX == valueY){
+    else if (valueX == valueY){
         println("Both X and Y has the same value, which is: " + valueX + " and " + valueY)
     }
     //For anything else, do the following (in this case, if x < y).
