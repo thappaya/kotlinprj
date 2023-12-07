@@ -38,7 +38,7 @@ fun main() {
     con4.typeOfCon = conTyp.typ[1]
     con4.cpu = theCPU.cpuTyp[2]
     con4.year = 2011
-    con4.rev = "PCH-2000 (JP)"
+    con4.rev = "PCH-2000 (JPN)"
 
     con5.conBrand = naming.nm[1]
     con5.con = "Super Famicom"
