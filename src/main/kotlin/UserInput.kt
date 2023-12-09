@@ -9,10 +9,7 @@ fun main(){
     //Both "when" and "if...else" can be used, however in this case, "when" is cleaner and more optimized.
     //Correct answers for the question should be "Bangkok", both with capital and non-capital letter.
     when (userText) {
-        "Bangkok" -> {
-            print("Correct!")
-        }
-        "bangkok" -> {
+        "Bangkok", "bangkok" -> {
             print("Correct!")
         }
         else -> {
