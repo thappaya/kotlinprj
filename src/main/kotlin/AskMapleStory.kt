@@ -9,7 +9,7 @@ fun main() {
     //Questions.
     println("This program will randomize what you should prioritize on upgrading on MapleStory.")
     println("Wanna go ahead?")
-    print("Your answer: ")
+    print("Your answer (Y/N): ")
     val ans = readln() //Reading user input
 
     val diceRoll = Random.nextInt(1,7)
