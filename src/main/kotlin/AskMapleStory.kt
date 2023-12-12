@@ -7,8 +7,9 @@ fun main() {
     val itemList = Items()
 
     //Questions.
-    println("This program will randomize what you should prioritize on upgrading on MapleStory.")
-    println("Wanna go ahead?")
+    println("This program will randomize what you should prioritize on upgrading in MapleStory.")
+    println("All abroad the grinding train!")
+    println("Wanna activate the program?")
     print("Your answer (Y/N): ")
     val ans = readln() //Reading user input
 
