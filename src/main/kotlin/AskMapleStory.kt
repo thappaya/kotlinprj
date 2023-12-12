@@ -18,16 +18,17 @@ fun main() {
     //"when" loop with logics inside (I N C E P T I O N).
     when (ans) {
         "yes", "Yes", "y", "Y" -> {
+            println("Let's see what will come up....")
             when (diceRoll) {
-                1 -> print("You should prioritize ${itemList.items[0]}.")
-                2 -> print("You should prioritize ${itemList.items[1]}.")
-                3 -> print("You should prioritize ${itemList.items[2]}.")
-                4 -> print("You should prioritize ${itemList.items[3]}.")
-                5 -> print("You should buy ${itemList.items[4]} items.")
-                6 -> print("You should prioritize ${itemList.items[5]}.")
-                7 -> print("Keep farming bro!")
+                1 -> println("You should prioritize ${itemList.items[0]}.")
+                2 -> println("You should prioritize ${itemList.items[1]}.")
+                3 -> println("You should prioritize ${itemList.items[2]}.")
+                4 -> println("You should prioritize ${itemList.items[3]}.")
+                5 -> println("You should buy ${itemList.items[4]} items.")
+                6 -> println("You should prioritize ${itemList.items[5]}.")
+                7 -> println("Keep farming bro!")
             }
-
+            print("Good luck!")
         }
         //Declining the program (why though?).
         "no", "No", "n", "N" -> {
